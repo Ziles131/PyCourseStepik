@@ -28,5 +28,4 @@ def C(n,k):
 n, k = map(int, input().split())
 
 
-
 print(C(n,k))
