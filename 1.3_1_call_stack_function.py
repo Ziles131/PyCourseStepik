@@ -7,3 +7,4 @@ print(closest_mod_5(int(input())))
 
 '''closest_mod_5 = lambda x: ((x+4) // 5)*5
 print(closest_mod_5(14))'''
+
