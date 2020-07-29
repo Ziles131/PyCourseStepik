@@ -1,7 +1,11 @@
-# Lesson 1 in ModuleLessons 2:
-
-
-
+try:
+	foo()
+except ArithmeticError as a:
+	print(a.args)
+except ZeroDivisionError:
+    print("ZeroDivisionError")
+except AssertionError:
+    print("AssertionError")
 
 
 
